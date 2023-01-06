@@ -14,10 +14,10 @@ function Home({basket,setBasket}) {
   <img src="./mobile_banner.jpg" alt="" />
   </Banner>
   <Main>
-<Card basket={basket} setBasket={setBasket} image={"./yashpal.jpg"} price={2500} rating={4.5} title={"Yashpal Yadav"} />
-{/* <Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"}/>
-<Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"}/>
-<Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"}/> */}
+<Card basket={basket} setBasket={setBasket} image={"./nitin.jpg"} price={0.1} rating={4.5} title={"Nitin"} />
+<Card basket={basket} setBasket={setBasket} image={"./gaurav.jpg"} price={0.1} rating={4.5} title={"Gaurav"}/>
+<Card basket={basket} setBasket={setBasket} image={"./raju.jpg"} price={0.1} rating={4.5} title={"Raju"}/>
+<Card basket={basket} setBasket={setBasket} image={"./rahul.jpg"} price={0.1} rating={4.5} title={"Rahul"}/>
 
   </Main>
    </Container>
