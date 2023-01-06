@@ -2,3 +2,7 @@ Video 1
 
 packages installed
 npm i styled-components react-router-dom
+
+git add .
+git commit -m "update navbar" 
+git push

@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-function Navbar(basket) {
-  console.log("basket >>>>", basket);
+function Navbar({basket}) {
+  // console.log("basket >>>>", basket);
 
 
   return (

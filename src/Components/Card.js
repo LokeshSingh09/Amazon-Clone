@@ -17,7 +17,7 @@ function Card({basket,setBasket,image,title,price,rating}){
 <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
         <div>{price}</div>
         <button onClick={addToBasket} >Add To Cart</button>
-        <p>{basket.length}</p>
+        
         
         </Description>
         </Container>
