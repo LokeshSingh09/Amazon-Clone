@@ -14,8 +14,10 @@ function Card({basket,setBasket,image,title,price,rating}){
         </Image>
         <Description>
             <h5>{title}</h5>
-<Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
-        <div>{price}</div>
+
+        <div>₹{price}</div>
+        <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
+        <div>Efficient and eligible male escort able to handle 5 people at a time</div>
         <button onClick={addToBasket} >Add To Cart</button>
         
         
