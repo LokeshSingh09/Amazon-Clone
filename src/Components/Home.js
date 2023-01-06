@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
 import Card from './Card';
 function Home({basket,setBasket}) {
   
@@ -8,7 +8,7 @@ function Home({basket,setBasket}) {
   
   return (
    <Container>
-  {/* <Navbar basket={basket}/> */}
+  <Navbar basket={basket}/>
   <Banner>
   <img src="./banner.jpg" alt="" />
   <img src="./mobile_banner.jpg" alt="" />
