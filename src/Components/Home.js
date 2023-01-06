@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Card from './Card';
 function Home({basket,setBasket}) {
   
@@ -8,16 +8,16 @@ function Home({basket,setBasket}) {
   
   return (
    <Container>
-  <Navbar basket={basket}/>
+  {/* <Navbar basket={basket}/> */}
   <Banner>
   <img src="./banner.jpg" alt="" />
   <img src="./mobile_banner.jpg" alt="" />
   </Banner>
   <Main>
 <Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"} />
-<Card basket={basket} setBasket={setBasket} />
-<Card basket={basket} setBasket={setBasket} />
-<Card basket={basket} setBasket={setBasket} />
+<Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"}/>
+<Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"}/>
+<Card basket={basket} setBasket={setBasket} image={"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=768:*"} price={2500} rating={3} title={"Echo Dot"}/>
 
   </Main>
    </Container>
